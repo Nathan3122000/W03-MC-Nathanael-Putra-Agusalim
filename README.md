@@ -24,5 +24,5 @@ Has the ability to clear/reset to start over
 
 Screenshot:
 
-<img width="303" alt="Screenshot 2023-10-07 at 11 17 54" src="https://github.com/Nathan3122000/W03-MC-Nathanael-Putra-Agusalim/assets/95455078/40bc6305-b587-441b-a929-6e4038bad1b8">
+<img width="303" alt="Screenshot 2023-10-07 at 11 17 54" src="https://github.com/Nathan3122000/W03-MC-Nathanael-Putra-Agusalim/assets/95455078/b2ccbacf-4e45-4961-9f9b-efbba694ac2b">
 
