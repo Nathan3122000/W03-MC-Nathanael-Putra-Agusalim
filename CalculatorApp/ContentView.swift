@@ -21,56 +21,73 @@ struct ContentView: View {
                 .padding()
             
             VStack(spacing: 100) {
-                HStack(spacing: 70) {
-                    Button("AC") { clear() }
+                HStack(spacing: 60) {
+                    Button("C") { clear() }
+                        .font(.largeTitle)
                     Button("+/-") { toggleSign() }
+                        .font(.largeTitle)
                     Button("%") { calculatePercentage() }
+                        .font(.largeTitle)
                     Button("/") { operatorTapped("/") }
+                        .font(.largeTitle)
                         .foregroundColor(.red)
                 }
                 
                 HStack(spacing: 70) {
                     Button("7") { digitTapped("7") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("8") { digitTapped("8") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("9") { digitTapped("9") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("*") { operatorTapped("*") }
+                        .font(.largeTitle)
                         .foregroundColor(.red)
                 }
                 
                 HStack(spacing: 70) {
                     Button("4") { digitTapped("4") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("5") { digitTapped("5") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("6") { digitTapped("6") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("-") { operatorTapped("-") }
+                        .font(.largeTitle)
                         .foregroundColor(.red)
                 }
                 
                 HStack(spacing: 70) {
                     Button("1") { digitTapped("1") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("2") { digitTapped("2") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("3") { digitTapped("3") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button("+") { operatorTapped("+") }
+                        .font(.largeTitle)
                         .foregroundColor(.red)
                 }
                 
-                HStack(spacing: 70) {
+                HStack(spacing: 84) {
                     Button("0") { digitTapped("0") }
                         .frame(width: 90)
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                     Button(".") { digitTapped(".") }
+                        .font(.largeTitle)
                         .foregroundColor(.black)
-                        
-                        
                     Button("=") { calculate() }
+                        .font(.largeTitle)
                         .foregroundColor(.red)
                 }
             }
